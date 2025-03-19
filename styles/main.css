@@ -9,15 +9,40 @@
 //
 // DON’T PROCEED UNTIL YOU’RE SURE STYLELINT AND EDITORCONFIG ARE WORKING RIGHT
 // -------------------------------------------------------------------------- */
-abcdef {
-     color: cs275
+
+
+body{
+  padding-block-start: 20px;
 }
 
+.carousel{
+  display: flex;
+}
 
+.carousel-slides{
+  position: relative;
+  width: 640px;
+}
 
+.carousel-view{
+  position: relative;
+  width: 50%;
+  border: solid 5px black;
+}
 
+.carousel-navigation{
+  position: absolute;
+  top: 50%;
+  padding: .64px .128px;
+}
 
+.carousel-navigation.next{
+  right: 8px;
+}
 
+.carousel-navigation.prev{
+  left: 8px;
+}
 
 
 
